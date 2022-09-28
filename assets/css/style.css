@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'PT Serif', serif;
+}
+.header{
+    padding: 60px 0 110px;
+    background-color: #fcdb00
+}
+.header .collapse{
+    margin-right: 90px;
+}
+.header .navbar-nav .nav-item a{
+    padding: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000;
+}
+.post h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding-top: 50px;
+    color: #010101;
+}
+.post h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    color: #313841;
+    font-weight: bold;
+}
+.post p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 80%;
+    color: #555555;
+    font-weight: bold;
+}
+.post .icons li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.post .icons li i{
+    font-size: 46px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* ======================features section css ========================= */
+.feature{
+    padding: 120px 0;
+}
+.feature .primary-heading h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.feature .primary-heading{
+    margin-bottom: 50px;
+}
+.feature .primary-heading p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 85%;
+}
+
+.feature .icon i{
+    font-size: 40px;
+    padding-top: 10px;
+}
+.feature .thumbnail h4{
+    text-transform: capitalize;
+    color: #010101;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.feature .col-md-3{
+    width: 25%;
+}
+.feature .col-md-9{
+    width: 75%;
+}
+.feature .row{
+    margin-bottom: 50px;
+}
+
+/* ======================footer section css ============================ */
+.footer{
+    background-color: #010101;
+    padding: 100px 0;
+}
+.footer .footer-heading h2{
+    color: #fcdb00;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.footer .footer-heading p{
+    color: #898989;;
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 90%;
+}
+.footer .search{
+    margin-bottom: 30px;
+}
+
+.footer .search .email{
+    width: 80%;
+    padding: 20px;
+    display: inline-block;
+    outline: #fff;
+    text-transform: capitalize;
+}
+.footer .search .btn{
+    margin: 10px;
+    color: #fcdb00;
+    border: 1px solid #fcdb00;
+}
+.footer .search .btn:hover{
+    color: #010101;
+    background-color: #fcdb00;
+}
+.footer .footer-icon{
+    margin-bottom: 120px;
+}
+.footer .footer-icon ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.footer li a i{
+    color: #fcdb00;
+    font-size: 25px;
+    padding: 10px;
+}
+.footer .footer-list li,.footer .footer-list li a {
+    display: inline-block;
+    color: #fff;
+    width: 90%;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: normal;
+}
+
+
+
+@media (min-width:768px){
+    .header .ipad img{
+        margin-left: 25px;
+        width: 310px;
+        height: 470px;
+        object-fit: cover;
+    }
+    .footer li a i{
+        font-size: 35px;
+    }
+}
+@media (max-width :1024px){
+    .header .collapse {
+        margin-right: 40px;
+    }
+}
